@@ -9,6 +9,9 @@ class Station:
         self._name = name
         self._coord = (coord_x, coord_y)
     
+    def __str__(self):
+        return f"{type(self)}, {self._code}, {self._name}, {self._coord}"
+    
 
 class BusStation (Station):
     pass

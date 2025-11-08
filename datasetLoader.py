@@ -1,5 +1,6 @@
 import pandas as pd
 from stations import BusStation
+import networkx
 
 bs_df = pd.read_excel("dataset\Datasets Barcelona\Parades Bus Barcelona.xlsx")
 selected_columns = bs_df[['Código de parada / Codi de parada', 'Nombre / Nom', 'UTM X', 'UTM Y']]
@@ -17,4 +18,5 @@ bus_stations = list()
 for value in tuples_list:
     bus_stations.append(BusStation(code=value[0], name=value[1], coord_x=value[2], coord_y=value[3]))
 
-print(bus_stations)
+for s in bus_stations:
+    print(s)
