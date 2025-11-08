@@ -7,7 +7,7 @@ class Station:
     def __init__(self, code, name, coord_x, coord_y):
         self._code = code
         self._name = name
-        self._coords = (coord_x, coord_y)
+        self._coord = (coord_x, coord_y)
     
 
 class BusStation (Station):
