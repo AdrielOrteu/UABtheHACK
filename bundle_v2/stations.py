@@ -20,6 +20,10 @@ class Station:
     def cords(self):
         return self._cords
     
+    @property
+    def region(self):
+        return self._region
+    
     def add_linia(self, l):
         self._linies.append(l)
     

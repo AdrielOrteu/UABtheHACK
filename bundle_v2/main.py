@@ -18,6 +18,13 @@ def join_graphs():
     return full_network
 
 def add_station_to_line():
+    # --- calc. region ---
+    for region in regions:
+        d = region.density
+        for linia in
+        
+    # --- calc. opt. extension ---
+    
     pass
 
 def add_new_line():
