@@ -1,0 +1,74 @@
+Codi_Districte;Nom_Districte;Codi_Barri;Nom_Barri;Densitat
+1;Ciutat Vella;1;el Raval;952
+1;Ciutat Vella;2;el Barri Gotic;639
+1;Ciutat Vella;3;la Barceloneta;1081
+1;Ciutat Vella;4;Sant Pere, Santa Caterina i la Ribera;683
+2;Eixample;5;el Fort Pienc;930
+2;Eixample;6;la Sagrada Familia;1007
+2;Eixample;7;la Dreta de l'Eixample;392
+2;Eixample;8;l'Antiga Esquerra de l'Eixample;627
+2;Eixample;9;la Nova Esquerra de l'Eixample;876
+2;Eixample;10;Sant Antoni;921
+3;Sants-Montjuic;11;el Poble Sec;1033
+3;Sants-Montjuic;12;la Marina del Prat Vermell;38
+3;Sants-Montjuic;13;la Marina de Port;789
+3;Sants-Montjuic;14;la Font de la Guatlla;873
+3;Sants-Montjuic;15;Hostafrancs;717
+3;Sants-Montjuic;16;la Bordeta;928
+3;Sants-Montjuic;17;Sants - Badal;980
+3;Sants-Montjuic;18;Sants;726
+4;Les Corts;19;les Corts;702
+4;Les Corts;20;la Maternitat i Sant Ramon;741
+4;Les Corts;21;Pedralbes;142
+5;Sarria-Sant Gervasi;22;Vallvidrera, el Tibidabo i les Planes;19
+5;Sarria-Sant Gervasi;23;Sarria;256
+5;Sarria-Sant Gervasi;24;les Tres Torres;382
+5;Sarria-Sant Gervasi;25;Sant Gervasi - la Bonanova;313
+5;Sarria-Sant Gervasi;26;Sant Gervasi - Galvany;491
+5;Sarria-Sant Gervasi;27;el Putxet i el Farr�;558
+6;Gracia;28;Vallcarca i els Penitents;335
+6;Gracia;29;el Coll;611
+6;Gracia;30;la Salut;680
+6;Gracia;31;la Vila de Gracia;589
+6;Gracia;32;el Camp d'en Grassot i Gracia Nova;907
+7;Horta-Guinardo;33;el Baix Guinardo;1079
+7;Horta-Guinardo;34;Can Baro;645
+7;Horta-Guinardo;35;el Guinardo;710
+7;Horta-Guinardo;36;la Font d'en Fargues;244
+7;Horta-Guinardo;37;el Carmel;822
+7;Horta-Guinardo;38;la Teixonera;707
+7;Horta-Guinardo;39;Sant Genis dels Agudells;430
+7;Horta-Guinardo;40;Montbau;447
+7;Horta-Guinardo;41;la Vall d'Hebron;813
+7;Horta-Guinardo;42;la Clota;114
+7;Horta-Guinardo;43;Horta;439
+8;Nou Barris;44;Vilapicina i la Torre Llobeta;875
+8;Nou Barris;45;Porta;768
+8;Nou Barris;46;el Turo de la Peira;1204
+8;Nou Barris;47;Can Peguera;359
+8;Nou Barris;48;la Guineueta;689
+8;Nou Barris;49;Canyelles;620
+8;Nou Barris;50;les Roquetes;897
+8;Nou Barris;51;Verdun;894
+8;Nou Barris;52;la Prosperitat;985
+8;Nou Barris;53;la Trinitat Nova;598
+8;Nou Barris;54;Torre Baro;136
+8;Nou Barris;55;Ciutat Meridiana;729
+8;Nou Barris;56;Vallbona;204
+9;Sant Andreu;57;la Trinitat Vella;817
+9;Sant Andreu;58;Baro de Viver;673
+9;Sant Andreu;59;el Bon Pastor;763
+9;Sant Andreu;60;Sant Andreu;758
+9;Sant Andreu;61;la Sagrera;770
+9;Sant Andreu;62;el Congres i els Indians;753
+9;Sant Andreu;63;Navas;984
+10;Sant Marti;64;el Camp de l'Arpa del Clot;894
+10;Sant Marti;65;el Clot;1131
+10;Sant Marti;66;el Parc i la Llacuna del Poblenou;699
+10;Sant Marti;67;la Vila Olimpica del Poblenou;380
+10;Sant Marti;68;el Poblenou;755
+10;Sant Marti;69;Diagonal Mar i el Front Mar�tim del Poblenou;556
+10;Sant Marti;70;el Besos i el Maresme;913
+10;Sant Marti;71;Provenicals del Poblenou;1368
+10;Sant Marti;72;Sant Marti de Provenicals;1111
+10;Sant Marti;73;la Verneda i la Pau;714
