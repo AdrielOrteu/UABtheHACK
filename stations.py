@@ -48,7 +48,7 @@ class Line:
             self._graph.add_edge(stations[i], stations[i + 1])
     
     def draw_graph(self):
-        # pos = {station.name: station.coords for station in self._stations}
+        pos = {station.name: station.coords for station in self._stations}
         
         nx.draw(self._graph, pos=pos, with_labels=True, node_color=self._color, node_size=800)
         plt.show()

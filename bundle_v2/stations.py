@@ -1,5 +1,6 @@
 import pandas as pd
 from typing import Tuple
+import networkx as nx
 
 class Station:
     __slots__ = ('_code','_name', '_cords', '_region', '_linies')
@@ -36,19 +37,43 @@ class MetroStation (Station):
 
 
 class Line:
-
+    
+    __slots__ = ("_name", "_stations", "_n_stations", "_graph")
     def __init__(self, name="", stations=()):
         self._name: str = name
         self._stations: dict[str, Station] = {station.name: station for station in stations}
-        self._n_stations = len(stations)
         
+        self._n_stations = len(stations)
+        self._graph = nx.Graph()
+        for i in range(self._n_stations):  # Afegim les estacions a la xarxa
+            self._graph.add_node(stations[i])
+        for i in range(self._n_stations - 1):  # Afegim les arestes a la xarxa
+            self._graph.add_edge(stations[i], stations[i + 1])
+    
+    def set_graph(self, stations):
+        self._n_stations = len(stations)
+        for i in range(self._n_stations):  # Afegim les estacions a la xarxa
+            self._graph.add_node(stations[i])
+        for i in range(self._n_stations - 1):  # Afegim les arestes a la xarxa
+            self._graph.add_edge(stations[i], stations[i + 1])
+    
+    @property
+    def graph(self):
+        return self._graph
+    @graph.setter
+    def graph(self,other):
+        if isinstance(other, nx.Graph):
+            self._graph = other
+        else:
+            raise TypeError ("graph must be of type nx.Graph")
+    
     def __str__(self):
         st = ""
         for s in self._stations:
             st += str(self._stations[s]) + " | "
         return f"{self._name}: {st}"
     
-def load_metro_lines():
+def load_metro_lines() -> list[Line]:
     def load_metro():
         metro_df = pd.read_excel("dataset/bcn/Transport Public Barcelona.xlsx")
         selected_columns = metro_df[['NOM_CAPA', 'LONGITUD', 'LATITUD', 'EQUIPAMENT', 'DISTRICTE', 'BARRI']]
